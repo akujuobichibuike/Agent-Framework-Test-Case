@@ -10,8 +10,8 @@
     - [Installation](#installation)
 3. [Usage](#3-usage)
     - [Setting up the Development Environment](#setting-up-the-development-environment)
-    - [Building the Teaching Assistant](#building-the-teaching-assistant)
-    - [Running the Teaching Assistant](#running-the-teaching-assistant)
+    - [Building the Agent Framework](#building-Agent-Framework)
+    - [Running the Agent Framework](#running-the-Agent-Framework)
 4. [Agents and Workflow](#4-agents-and-workflow)
     - [Researcher Agent](#researcher-agent)
     - [Writer Agent](#writer-agent)
@@ -63,12 +63,12 @@ ollama run openhermes
 pip install crewai
 ```
 
-##### Building the Teaching Assistant
+##### Building the Agent Framework
 
 - Create the Researcher, Writer, and Examiner agents using the provided code.
 - Assign tasks to each agent within a Crew as shown in the example code.
 
-##### Running the Teaching Assistant
+##### Running the Agent Framework
 
 Execute the script to run the Teaching Assistant:
 
