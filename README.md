@@ -119,8 +119,8 @@ The Examiner Agent leverages the Openhermes model to craft 2-3 insightful test q
 # Examiner Agent
 examiner = Agent(
     role='Examiner',
-    goal='Create 2-3 insightful test questions to evaluate understanding.',
-    backstory='Developing challenging questions to assess understanding.',
+    goal='Create 2-3 test questions and correct answers to evaluate the understanding of the NLP text.',
+    backstory='The Examiner Agent, armed with deep knowledge in NLP, will meticulously design questions and provide correct answers to gauge the students\' comprehension after reading the text crafted by the Writer.',
     verbose=True,
     allow_delegation=False,
     llm=ollama_openhermes
