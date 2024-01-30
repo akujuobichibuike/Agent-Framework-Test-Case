@@ -86,8 +86,8 @@ The Researcher Agent generates engaging ideas for teaching NLP using the Openher
 # Researcher Agent
 researcher = Agent(
     role='Researcher',
-    goal='Generate engaging ideas for teaching NLP to beginners.',
-    backstory='An expert in NLP, creating compelling concepts for the Writer Agent.',
+    goal='Generate engaging ideas and concepts for teaching NLP to beginners.',
+    backstory='The Researcher Agent, an expert in NLP, aims to create captivating concepts to serve as a foundation for the Writer Agent.',
     verbose=True,
     allow_delegation=False,
     tools=[search_tool],
@@ -103,8 +103,8 @@ The Writer Agent composes a clear and informative text on NLP using ideas provid
 # Writer Agent
 writer = Agent(
     role='Writer',
-    goal='Compose a clear and informative text explaining NLP.',
-    backstory='Drawing inspiration from the ideas provided by the Researcher.',
+    goal='Compose a clear and informative piece of text explaining NLP.',
+    backstory='Drawing inspiration from the ideas provided by the Researcher, the Writer Agent\'s goal is to produce an easily digestible text on NLP.',
     verbose=True,
     allow_delegation=False,
     llm=ollama_mistral
