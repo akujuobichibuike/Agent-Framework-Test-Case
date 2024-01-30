@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 - Download Ollama from [Here](https://ollama.ai/download). Once it is downloaded, open your terminal and download the weights of any model of your choice. In my case, I used Mistral and Openhermes. Refer to the Ollama website [Here](https://ollama.ai/library) to see the models they have.
 
-- Download the Mistral and Openhermes models using:
+- Download the Mistral and Openhermes models by running the following commands one after the other:
 
 ```bash
 ollama run mistral
