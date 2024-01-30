@@ -1,4 +1,4 @@
-# Teaching Assistant
+# Agent Framework Test Case
 
 ---
 
@@ -24,7 +24,7 @@
 
 #### 1. Introduction
 
-Welcome to the Teaching Assistant project. This project utilizes CrewAI, Langchain, and Ollama to create an agent-based framework for generating educational content on Natural Language Processing (NLP).
+Welcome to the Agent Framework Test Case project. This project utilizes CrewAI, Langchain, and Ollama to create an agent-based framework for generating educational content on Natural Language Processing (NLP).
 
 #### 2. Getting Started
 
